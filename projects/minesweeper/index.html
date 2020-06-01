@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Minesweeper</title>
+</head>
+
+<body onload="init()">
+    <h1>Minesweeper</h1>
+    <div class="timer">Time: <span>00:00</span></div>
+    <div class="best-time">Best Time: <span></span></div>
+    <br>
+    <button class="smiley" onclick="restart()">🙂</button>
+    <br>
+    <div class="lives"></div>
+    <button class="safe" onclick="safeClick()">Safe<br><span class="num-of-safe-clicks">3</span></button>
+    <div class="hints"></div>
+    <br>
+    <button class="level" onclick="setLevel(4,2)">Beginner</button>
+    <button class="level" onclick="setLevel(8,12)">Medium</button>
+    <button class="level" onclick="setLevel(12,30)">Expert</button>
+    
+    <table border="1">
+        <tbody class="board"></tbody>
+    </table>
+
+    <button class="manual" onclick="manualMode()">🔩🔨<span class="tooltiptext manually">Place the mines
+            manually</span><span class="manual-mines"><span></span> mines to place</span></button>
+    <button onclick="undo()" class="undo">⏪ undo</button>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

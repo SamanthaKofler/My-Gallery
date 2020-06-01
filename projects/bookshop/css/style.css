@@ -1,0 +1,95 @@
+body {
+    background-image: url('../img/background2.jpg');
+    margin: 0px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin-top:0;
+    padding: 20px;
+    font-family: fantasy;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+table {
+    
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: beige;
+}
+
+th {
+    background-color: antiquewhite;
+}
+
+td, th {
+    padding: 10px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.modal {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.book-rating button {
+    margin: 10px;
+}
+
+.read-button, .update-button, .delete-button {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.read-button {
+    background-color: rgba(111, 156, 240, 0.5);
+}
+
+.read-button:hover {
+    background-color: rgb(111, 156, 240);
+}
+
+.update-button {
+    background-color: rgba(97, 230, 97, 0.5);
+}
+.update-button:hover {
+    background-color: rgb(97, 230, 97);
+}
+
+.delete-button {
+    background-color: rgba(243, 55, 55, 0.5);
+}
+.delete-button:hover {
+    background-color: rgb(243, 55, 55);
+}
+
+.add-book {
+    background-color: rgba(255, 255, 0, 0.5);
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.add-book:hover {
+    background-color: yellow;
+}
+
+.head-title, .head-price:hover {
+cursor: pointer;
+}

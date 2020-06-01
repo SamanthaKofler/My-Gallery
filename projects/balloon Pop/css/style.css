@@ -1,0 +1,53 @@
+body {
+    background-image:url('../img/background.jpeg');
+}
+
+h1 {
+    font-size: 70px;
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: fantasy;
+    color: lightpink;
+    text-align: center;
+
+}
+
+.balloon {
+    position: absolute;
+    width: 120px;
+    height: 145px;
+    border-radius: 80%;
+    bottom: 0px;
+    transition: 3s;
+}
+
+.balloon1 {
+    background-color: blueviolet;
+    left: 100px;
+}
+
+.balloon2 {
+    background-color: yellow;
+    left: 350px;
+}
+
+.balloon3 {
+    background-color: orange;
+    left: 600px;
+}
+
+.balloon4 {
+    background-color: rgb(32, 179, 32);
+    left: 850px;
+}
+
+.balloon5 {
+    background-color: rgb(187, 54, 54);
+    left: 1000px;
+}
+
+
+
+.fade {
+    opacity: 0;
+    transition: 1s;
+}
